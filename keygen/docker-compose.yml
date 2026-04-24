@@ -1,0 +1,11 @@
+services:
+  keygen:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ${KEYGEN_CONTAINER_NAME:-keygen-runtime}
+    ports:
+      - "${KEYGEN_PORT:-19090}:9090"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
