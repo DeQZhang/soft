@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: ${KEYGEN_CONTAINER_NAME:-keygen-runtime}
+    container_name: ${KEYGEN_CONTAINER_NAME:-keygen-source}
     ports:
       - "${KEYGEN_PORT:-19090}:9090"
     volumes:

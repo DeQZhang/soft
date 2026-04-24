@@ -1,0 +1,1 @@
+import{p as e}from"./index-DD0PF43p.js";var t=e(`BatchService`,`CreateBatch`),n=e(`BatchService`,`DeleteBatch`),r=e(`BatchService`,`GetBatchByID`),i=e(`BatchService`,`ListBatches`),a=e(`BatchService`,`UpdateBatch`);export{a,i,n,r,t};

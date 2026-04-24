@@ -1,11 +1,8 @@
 {
-  "role": "runtime",
+  "role": "source",
   "build_time_utc": "2026-04-21T08:40:37Z",
   "source_hash": "9ee059ddca453bfe35679de80a6ea92a776a236d",
-  "default_container_name": "keygen-runtime",
+  "default_container_name": "keygen-source",
   "default_port": 19090,
-  "binaries": {
-    "linux_amd64_sha1": "b2180b54851dfaee76fff72885d3461d484df05b",
-    "linux_arm64_sha1": "f903916930d736cf4ab7bd94f82eb023aa283bd7"
-  }
+  "sync_runtime_command": "bash soft/keygen/sync_keygen_runtime.sh"
 }

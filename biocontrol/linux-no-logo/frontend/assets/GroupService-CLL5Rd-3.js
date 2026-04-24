@@ -1,0 +1,1 @@
+import{p as e}from"./index-DD0PF43p.js";var t=e(`GroupService`,`CheckGroupExists`),n=e(`GroupService`,`CreateGroup`),r=e(`GroupService`,`DeleteGroup`);e(`GroupService`,`GetGroupByID`);var i=e(`GroupService`,`ListGroups`);e(`GroupService`,`UpdateGroup`);export{i,n,r,t};

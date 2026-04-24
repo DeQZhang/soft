@@ -1,0 +1,1 @@
+import{p as e}from"./index-DD0PF43p.js";var t=e(`BatchChartService`,`GetBatchChartData`);export{t};

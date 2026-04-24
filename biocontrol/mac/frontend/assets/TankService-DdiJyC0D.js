@@ -1,0 +1,1 @@
+import{p as e}from"./index-DD0PF43p.js";var t=e(`TankService`,`CheckTankExists`),n=e(`TankService`,`CreateTank`),r=e(`TankService`,`DeleteTank`);e(`TankService`,`GetTankByID`);var i=e(`TankService`,`ListTanks`);e(`TankService`,`UpdateTank`);export{i,n,r,t};
